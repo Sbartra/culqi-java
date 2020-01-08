@@ -45,30 +45,11 @@
         <url>https://github.com/culqi/culqi-java/issues</url>
     </issueManagement>
 
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.12</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.squareup.okhttp3</groupId>
-            <artifactId>okhttp</artifactId>
-            <version>3.6.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.9.9</version>
-        </dependency>
-    </dependencies>
+    <dependency>
+    <groupId>com.github.culqi</groupId>
+    <artifactId>culqi-java</artifactId>
+    <version>v1.1.9</version>
+</dependency>
 
     <distributionManagement>
         <snapshotRepository>
